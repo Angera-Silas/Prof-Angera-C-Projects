@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Prof-Angera-C-Projects",
+			"path": "Prof-Angera-C-Projects"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.sql": "sql",
+			"*.java": "java",
+			"*.kt": "kotlinscript",
+			"*.php": "php",
+			"*.html": "html",
+			"*.cpp": "cpp",
+			"*.sqllite": "sqllite",
+			"ostream": "cpp"
+		},
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MySQL",
+				"name": "website",
+				"username": "angera",
+				"database": "web"
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	}
+}

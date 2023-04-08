@@ -1,0 +1,59 @@
+//PROGRAM WRITTEN BY PROF ANGERA
+#include<iostream>
+#include<string>
+using namespace std;
+struct worker_info
+{
+    string first_name;
+    string surname;
+    string name;
+    string space;
+    int age;
+    char gender[6];
+    string department;
+    char position[20];
+    float salary;
+
+};
+int main()
+{
+    int n;
+    string org_name;
+    cout<<"Enter the Name of your Organization"<<endl;
+    getline(cin,org_name);
+    cout<<"Enter the Number of workers in "<<org_name<<endl;
+    cin>>n;
+    worker_info workers[n];
+    for(int i = 0; i < n; i++)
+    {
+        cout<<"ENTER THE REQUIRED INFORMATION FOR WORKER "<<(i+1)<<endl;
+        cout<<"\nEnter Worker\'s Official First Name"<<endl;
+        cin>>workers[i].first_name;
+        cout<<"Enter Worker\'s Official Surname"<<endl;
+        cin>>workers[i].surname;
+        cout<<"Enter Worker age"<<endl;
+        cin>>workers[i].age;
+        cout<<"Enter Workers Gender"<<endl;
+        cin>>workers[i].gender;
+        cout<<"Which Department does he/she work"<<endl;
+        cin>>workers[i].department;
+        cout<<"Which position does he hold"<<endl;
+        cin>>workers[i].position;
+        cout<<"Salary per month"<<endl;
+        cin>>workers[i].salary;
+        workers[i].space = " ";//one space to separate the names when displaying
+        workers[i].name = workers[i].first_name + workers[i].space + workers[i].surname;
+    }
+    cout<<org_name<<" WORKERS INFORMATION"<<endl;
+    for(int i = 0; i < n; i++)
+    {
+        cout<<"\nWORKER "<<(i+1)<<endl;
+        cout<<"NAME : "<<workers[i].name<<endl;
+        cout<<"AGE : "<<workers[i].age<<endl;
+        cout<<"GENDER : "<<workers[i].gender<<endl;
+        cout<<"DEPARTMENT : "<<workers[i].department<<endl;
+        cout<<"POSITION : "<<workers[i].position<<endl;
+        cout<<"SALARY : "<<workers[i].salary<<endl;
+    }
+    return 0;
+}

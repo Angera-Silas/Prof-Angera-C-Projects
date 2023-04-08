@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"enter the value of a";
+    cin>>a;
+    if(a<100)
+    {
+        cout<<"number less than 100";
+    }
+    if(a>100)
+    {
+        cout<<"number greater than 100";
+    }
+    re
+
+}

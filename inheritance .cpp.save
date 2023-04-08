@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+class Teacher
+{
+    public:
+        Teacher() 
+        {
+            cout << "Hey Guys, I am a teacher" << endl;
+        }
+};
+
+class MathTeacher : public Teacher 
+{
+    public:
+    MathTeacher(string name, string collegeName) 
+    {
+        cout << "I am a Math Teacher" << endl;
+        cout << "Name: " << name << endl;
+    cout << "College Name: " << collegeName << endl;
+    cout << "Main Subject: Math" << endl;
+  }
+};
+
+int main() {
+  MathTeacher mathTeacher("Negan", "Beginnersbook");
+  return 0;
+}
+
