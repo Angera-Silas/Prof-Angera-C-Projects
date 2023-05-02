@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cppprojects:
+    image: cppprojects
+    build:
+      context: .
+      dockerfile: ./Dockerfile

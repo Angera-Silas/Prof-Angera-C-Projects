@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Cpp_Projects",
+			"path": "Cpp_Projects"
+		}
+	],
+	"settings": {
+		"files.autoSave": "onFocusChange"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-azuretools.vscode-docker"
+		]
+	}
+}
