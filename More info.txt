@@ -1,0 +1,4 @@
+This application is still under development and once this part of polygons will be finished i will post an update
+ABOUT PROF ANGERA
+Prof Angera is a professinal c++ developer, he is currently enrolled at kabarak University for an IT related course
+MORE ABOUT THIS APPLICATION

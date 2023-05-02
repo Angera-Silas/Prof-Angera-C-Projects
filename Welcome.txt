@@ -1,0 +1,3 @@
+Welcome to Prof Angera Silas Official website
+This page is meant for learners of oop with c++ language
+Before starting writting codes in c++ lets remind ourselves the basic concepts to programming through writing some flowcharts and algorithims

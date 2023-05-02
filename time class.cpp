@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class time{
+    public:
+        //two ways of defining a method 1. inside a class 2. outside a class
+        //inside a class
+        float hours() {
+            cout<<"afternoon"<<endl;
+        }//a method - a function that belongs to a class
+
+        float mins();
+};
+//outside a class
+float time::mins(){
+    cout<<"Welcome"<<endl;
+}
+int main()
+{
+    //time obj1;//an object of the class
+    obj1.hours();calling a method
+    obj1.mins();
+    return 0;
+}

@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int * p,var=10;
+    p = &var;
+    cout<<"Address of var"<<&var<<endl;
+    cout<<"Address of var"<<p<<endl;
+    cout<<"Address of p"<<&P<<endl;
+    cout
+}
