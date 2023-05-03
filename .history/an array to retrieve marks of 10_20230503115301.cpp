@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    int marks[2][5] = {{45,70,60,78,89},{34,56}};
-    for(int i=0;i<2;i++)
+    int marks[5][2] = {{45,70,60},{34,56}};
+    for(int i=0;i<5;i++)
     {
-        for(int j=0;j<5;j++)
+        for(int j=0;j<2;j++)
         {
             cout<<marks[i][j]<<endl;
         }
